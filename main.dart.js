@@ -70261,7 +70261,7 @@ pK(){var s=0,r=A.Q(t.H),q=1,p,o=this,n,m,l,k,j,i
 var $async$pK=A.R(function(a,b){if(a===1){p=b
 s=q}while(true)switch(s){case 0:q=3
 s=6
-return A.Y(A.amq(A.eE("https://dummyjson.com/quotes/random",0,null)),$async$pK)
+return A.Y(A.amq(A.eE("https://quotes-api-self.vercel.app/quote",0,null)),$async$pK)
 case 6:n=b
 o.qJ()
 if(n.b===200){k=n
